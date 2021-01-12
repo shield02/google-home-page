@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/google.css">
-    <l<script src="https://kit.fontawesome.com/3035b1b97a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3035b1b97a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Google Home</title>
 </head>
@@ -36,22 +36,23 @@
         </div>
     </div>
 
+    <div><img id="google" src="images/google-logo.png" alt="google-logo"></div>
+
     <div class="row">
         <div class="col-sm-3">
             
         </div>
 
         <div class="col-sm-6">
-            <form action="/action_page.php">
-                <div class="form-group">
-                  <label for="email">Email address:</label>
-                
-                  <input type="email" class="form-control" placeholder= "" id="email">
-                  
-                </div>
-            </form>
+          <div class="main"> 
+            <!-- Actual search box -->
+            <div class="form-group has-search">
+                <span class="fa fa-search form-control-feedback"></span>
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </div>
         </div>
-           
+        
         <div class="col-sm-3">
                 
         </div>
